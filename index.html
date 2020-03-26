@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Web IDE</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" type="image/svg" href="icon.svg" />
+</head>
+
+<body onload="loadData()">
+    <div id="editor">
+        <textarea id="code"></textarea>
+        <div id="panel">
+            <button onclick="run()">Run</button>
+            <button onclick="saveData()">Save</button>
+        </div>
+    </div>
+    <iframe id="view"></iframe>
+</body>
+<script src="script.js"></script>
+
+</html>
