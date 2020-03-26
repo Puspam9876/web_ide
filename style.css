@@ -34,6 +34,7 @@ body {
     min-height: 10vh;
     max-height: 50vh;
     overflow: auto;
+    white-space: nowrap;
     resize: vertical;
     border-color: green;
     padding: 5px;
