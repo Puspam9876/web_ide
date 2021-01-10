@@ -16,5 +16,8 @@ function saveData() {
 }
 
 function run() {
-    view.contentDocument.body.innerHTML = code.value;
+    const iframe = view.contentWindow.document;
+    iframe.open();
+    iframe.write(code.value);
+    iframe.close();
 }
